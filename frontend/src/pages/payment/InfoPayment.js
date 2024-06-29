@@ -248,7 +248,8 @@ const InfoPayment = () => {
                 amount={(totalPrice / 1000).toFixed(2)} // Converting totalPrice from dong to USD for PayPal
                 onSuccess={handlePayPalSuccess}
                 options={{
-                  clientId: "ARVt8ivC8vX3vron7Q7GmsCFKx_AaXodJjzPUSiut6p4OeNISClTaaAsQGjrYUcPhOI3lQY3OEBQFwoq"
+                  // clientId: "ARVt8ivC8vX3vron7Q7GmsCFKx_AaXodJjzPUSiut6p4OeNISClTaaAsQGjrYUcPhOI3lQY3OEBQFwoq"
+                  clientId: "AZgwKH68F74d8-iZbsl3X_sdjWfPhiPfmy7yMkPzTrdmp1xmiPWM0Vllr_adis4mTtzETJs44RK_E5Ga"
                 }}
               />
             </div>
